@@ -1,0 +1,77 @@
+body{
+	font-family: 'PT Sans', sans-serif;
+	color: #010101;
+}
+/*header start*/
+header {
+    background-color: #fcdb00;
+    padding: 10px 0;
+}
+.logo{
+
+}
+.menu ul li a {
+    font-size: 22px;
+    font-weight: 700;
+    color: #010101 !important;
+    padding: 0px 57px !important;
+}
+.menu ul li:last-child a{
+	padding-right: 0px !important;
+}
+.menu ul li a:hover {
+	color: #fff !important;
+}
+/*header end*/
+
+/*slider start*/
+.slider{
+	background-color: #fcdb00;
+	padding-bottom: 100px;
+}
+
+.cid {
+    bottom: -80px;
+}
+.cid li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.slider-content{
+	margin-top: 60px;
+}
+.slider-content h1{
+	font-weight: 700;
+	font-size: 32px;
+	margin: 0;
+}
+.slider-content h2 {
+    color: #313841;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+.slider-content p {
+    color: #555555;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.slider-icon{}
+.slider-icon li i {
+    font-size: 42px;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+.slider-icon li:hover > i{
+	color: #fff;
+	transform: scaleX(-1);
+}
+.slider-img{}
+.slider-img img{
+	width: 100%;
+	height: auto;
+}
+
+/*slider end*/
